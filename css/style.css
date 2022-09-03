@@ -16,6 +16,7 @@ body {
   display: grid; 
   place-items: center; 
   min-height: 100vh;
+  background-color: var(--Very-light-gray);
 }
 .container {
   display: flex; 
@@ -25,7 +26,7 @@ body {
 }
 .container .box {
   color: #fff; 
-  padding: 40px;
+  padding: 45px;
   flex: 1;
 }
 .container .box:first-child {
@@ -51,7 +52,7 @@ body {
 }
 .container .box h1 {
   text-transform: uppercase; 
-  font-size: 45px;
+  font-size: 40px;
   color: var(--Very-light-gray);
 }
 .container .box p {
