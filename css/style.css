@@ -1,0 +1,82 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%); 
+  --Font-size: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Lexend Deca', sans-serif;
+  display: grid; 
+  place-items: center; 
+  min-height: 100vh;
+}
+.container {
+  display: flex; 
+  width: 900px;
+  border-radius: 6px; 
+  overflow: hidden;
+}
+.container .box {
+  color: #fff; 
+  padding: 40px;
+  flex: 1;
+}
+.container .box:first-child {
+  background-color: var(--Bright-orange);
+}
+.container .box:first-child a {
+  color: var(--Bright-orange);
+}
+.container .box:nth-child(2) {
+  background-color: var(--Dark-cyan);
+}
+.container .box:nth-child(2) a {
+  color: var(--Dark-cyan);
+}
+.container .box:last-child {
+  background-color: var(--Very-dark-cyan);
+}
+.container .box:last-child a {
+  color: var(--Very-dark-cyan);
+}
+.container .box img {
+
+}
+.container .box h1 {
+  text-transform: uppercase; 
+  font-size: 45px;
+  color: var(--Very-light-gray);
+}
+.container .box p {
+  font-size: var(--Font-size);
+  color: var(--Transparent-white);
+  margin-bottom: 80px;
+  line-height: 1.7;
+}
+.container .box a {
+  display: block;
+  text-decoration: none; 
+  background-color: var(--Very-light-gray);
+  padding: 15px 30px; 
+  border-radius: 30px;
+  width: fit-content;
+  border: 1.5px solid var(--Very-light-gray);
+  transition: .3s;
+}
+.container .box a:hover {
+  box-sizing: content-box;
+  background-color: transparent;
+  color: var(--Very-light-gray);
+}
+
+
+
+
+
